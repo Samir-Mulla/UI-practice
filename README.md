@@ -1,6 +1,6 @@
 # HTML + CSS Layout Practice Project
 
-This project is dedicated to practicing and learning fundamental UI concepts and techniques using HTML and CSS. It serves as a platform for experimenting with various design elements and layouts, as well as understanding how to create responsive designs that adapt to different screen sizes.
+This UI layout project is to revise and practice the layout to make the website responsive.
 
 ## Technologies and Tools
 
