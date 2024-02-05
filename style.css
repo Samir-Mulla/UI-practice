@@ -4,6 +4,11 @@
   --btn-bg-clr: #38cfd9;
   --txt-clr: #fff;
   --h1-fs: 3rem;
+  --h2-clr: hsl(280, 22%, 49%);
+  --box-bg: hsl(120, 100%, 25%);
+  --section-bg: #136c72;
+  --section-txt-clr: hsl(0, 0%, 100%);
+  --row-text-clr: #3a3a3a;
 }
 
 /* Universal Selector */
@@ -12,6 +17,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  /* background: rgb(0 100 0 / 0.1); */
 }
 
 /* Body */
@@ -65,4 +71,62 @@ h1 {
 .btn:hover,
 .btn:focus {
   opacity: 0.75;
+}
+
+.container-2 {
+  margin: 2em;
+}
+
+.row {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.col {
+  width: 100%;
+  border-radius: 1%;
+  color: clr;
+  padding: 1em;
+  line-height: 1.5;
+}
+
+.headings {
+  color: var(--h2-clr);
+}
+
+.col p {
+  font-size: 1.3rem;
+  color: var(--row-text-clr);
+}
+
+.section {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  gap: 2em;
+  padding: 4em;
+  background: var(--section-bg);
+}
+
+.section__part1,
+.section__part2 {
+  width: 50%;
+  padding: 0 4em;
+}
+
+.section__part1 h1,
+.section__part2 h1 {
+  color: var(--section-txt-clr);
+  font-size: 2.25rem;
+}
+
+.section__part1 p,
+.section__part2 p {
+  color: hsl(0, 3%, 82%);
+  font-family: system-ui, "Roboto Regular";
 }
