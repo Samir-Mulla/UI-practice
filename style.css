@@ -103,6 +103,7 @@ h1 {
   color: var(--row-text-clr);
 }
 
+/* Section layout with flexbox and specific background color */
 .section {
   display: flex;
   width: 100%;
@@ -113,18 +114,21 @@ h1 {
   background: var(--section-bg);
 }
 
+/* Parts of a section with equal width and padding */
 .section__part1,
 .section__part2 {
   width: 50%;
   padding: 0 4em;
 }
 
+/* Headings within section parts with specific color and size */
 .section__part1 h1,
 .section__part2 h1 {
   color: var(--section-txt-clr);
   font-size: 2.25rem;
 }
 
+/* Paragraphs within section parts with specific color and font family */
 .section__part1 p,
 .section__part2 p {
   color: hsl(0, 3%, 82%);
